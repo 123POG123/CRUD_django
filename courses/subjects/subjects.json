@@ -1,0 +1,54 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Poster",
+    "slug": "poster"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Mathematica",
+    "slug": "mathematica"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Music",
+    "slug": "music"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Hosting",
+    "slug": "hosting"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "How to Upgrade PIP in Windows",
+    "slug": "how-to-upgrade-pip-in-windows",
+    "overview": "In order to upgrade PIP in Windows, you’ll need to open the Windows Command Prompt, and then type/copy the command below. Note that the following method would only work if you already added Python to Windows path. Don’t worry if you don’t know what it means, as you’ll see the full steps to upgrade pip in the next section.",
+    "created": "2021-10-15T17:44:25.898Z"
+  }
+}
+]
